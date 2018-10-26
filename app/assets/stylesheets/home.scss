@@ -55,7 +55,7 @@ body {
 
 .container {
   max-width: 600px;
-  margin: 60px auto;
+  margin: 30px auto;
   padding-left: 15px;
   padding-right: 15px;
   clear: both;
@@ -178,7 +178,7 @@ header {
 /* コンテンツ ================================ */
 .contents {
   height: 1630px;
-  margin-top: 100px;
+  margin-top: 2px;
   background-color: white;
 }
 
@@ -188,12 +188,12 @@ header {
 
 .copy-container {
   background-image: url("/car.jpg");
-  height: 500px;
+  height: 600px;
 }
 
 .copy-container2 {
   background-image: url("/car2.jpg");
-  height: 500px;
+  height: 550px;
 }
 
 .copy-container h1 {
@@ -239,10 +239,10 @@ header {
 }
 
 .section-title {
-  border-bottom: 12px solid #dee7ec;
+  border-bottom: 3px solid #ffffff;
   font-size: 28px;
-  padding-bottom: 15px;
-  margin-bottom: 50px;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
 }
 
 .section-title-car {
@@ -334,8 +334,8 @@ header {
 .footer-logo {
   font-size: 20px;
   float:  left;
-  color: rgb(0, 0, 0);
-  height: 120px;
+  color: rgb(255, 255, 255);
+  height: 150px;
   padding: 40px 40px;
 }
 
@@ -345,8 +345,8 @@ header {
 }
 
 .footer-list li {
-  color: black;
-  padding-bottom: 20px;
+  color: white;
+  padding-bottom: 10px;
 }
 
 .col-b .col  {
@@ -354,7 +354,7 @@ header {
 	margin-left: 25px;
 	background: white;
 	text-align:center;
-	padding: 5em;
+	padding: 6em;
   text-align:center;
 }
 
@@ -436,4 +436,23 @@ header {
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
   border-bottom: none;
+}
+
+
+
+.cssgrid {
+  border: 1px solid #ddd;
+  padding: 0.8em;
+  margin: 0 0 2em;
+	border-radius: 10px;
+	text-align:center;
+}
+
+.cssgrid > div {
+  background: #333;
+  overflow: auto;
+  min-width: 0;
+  padding: 1em;
+	border-radius: 10px;
+	text-align:center;
 }
