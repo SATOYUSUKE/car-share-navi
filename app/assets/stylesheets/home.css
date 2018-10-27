@@ -190,6 +190,11 @@ header {
   height: 550px;
 }
 
+.copy-container3 {
+  background-image: url("/automobile.jpg");
+  height: 550px;
+}
+
 .copy-container h1 {
   font-size: 140px;
 }
