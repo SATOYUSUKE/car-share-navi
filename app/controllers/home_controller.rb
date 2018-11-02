@@ -4,5 +4,20 @@ class HomeController < ApplicationController
 
   def about
   end
+
+  def service
+  end
+
+  def news
+  end
+
+  def price
+  end
+
+  def recruit
+  end
+
+  def contact
+  end
   
 end
